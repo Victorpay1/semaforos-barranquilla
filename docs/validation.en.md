@@ -56,14 +56,14 @@ streets** and the map has **exactly one junction** of those two streets (both ca
 same junction). Door addresses ("CL 87 9H 24"), stretches ("between… and…", "in front of…") and ambiguous cases are
 discarded: an unassigned record is better than a misassigned one.
 
-- **18,797 of 28,523 records assigned (65.9 %)**; among those written as a junction, 82.1 %.
-- Unassigned: 3,676 door addresses, 1,047 stretches, 3,244 junctions that don't exist on the map under that name
-  (mostly Circunvalar interchanges), 841 ambiguous, 918 unreadable. A random sample of 30 assignments was checked by
-  hand: all 30 are consistent; one relies on an alias taken from OSM (Carrera 6 = Cordialidad)
-  (`data/out/reports/crash-match.json`).
+- **18,798 of 28,523 records assigned (65.9 %)**; among those written as a junction, 82.1 %.
+- Unassigned: 3,676 door addresses, 1,047 stretches, 3,243 junctions that don't exist on the map under that name
+  (mostly Circunvalar interchanges), 841 ambiguous, 918 unreadable. A random sample of 30 assignments from v0.1.0 was checked by
+  hand: all 30 are consistent; one relies on an alias taken from OSM (Carrera 6 = Cordialidad).
+  The reproducible sample in `data/out/reports/crash-match.json` is regenerated when assignments change.
 - **Period used: 2018–2022.** From 2023 the records stopped including damage-only crashes (4,128 in 2018, 6 in 2023),
   while crashes with victims held steady (1,100–1,800 a year). To avoid mixing two recording rules, counts and
-  rankings use 2018–2022 (15,093 assigned records); crashes with victims in 2023–2025 are shown separately.
+  rankings use 2018–2022 (15,094 assigned records); crashes with victims in 2023–2025 are shown separately.
 - Junctions that **already have a signal** have many more crashes (median 10) than those without (median 0), because
   more traffic goes through them. That is why crashes are read as **a sign of conflict and exposure, not as proof that
   a signal is missing**.

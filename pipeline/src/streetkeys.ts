@@ -53,7 +53,13 @@ function parseNumbered(tokens: string[], i: number, osmSide = false): { key: str
   if (!m) return null;
   let j = i + 2;
   let letters = m[2];
-  if (!letters && SUFFIX_LETTER.test(tokens[j] ?? "")) letters = tokens[j++];
+  // In addresses, X before another road is a crossing connector. Keep real X suffixes
+  // in OSM names, before an explicit CON, or before a door number.
+  const next = tokens[j + 1] ?? "";
+  const xConnector = !osmSide && tokens[j] === "X" && (
+    Boolean(TYPE[next]) || /^(AV|AVENIDA|AVDA|AVENIDAD|VIA|VIA40)$/.test(next) || NAMED.some((n) => n.re.test(next))
+  );
+  if (!letters && !xConnector && SUFFIX_LETTER.test(tokens[j] ?? "")) letters = tokens[j++];
   // OSM sub-numbered streets: "Carrera 26B 2" (crash side writes "CR 26B2"; a detached digit there is a door number)
   if (osmSide && /^[A-Z]{1,2}$/.test(letters) && /^\d$/.test(tokens[j] ?? "") && j === tokens.length - 1) letters += tokens[j++];
   if (tokens[j] === "BIS") j++; // ignored: OSM rarely carries it

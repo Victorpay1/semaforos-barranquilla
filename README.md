@@ -58,7 +58,7 @@ Corte de los datos: **20 de septiembre de 2026**.
 | 🟢 Ya tiene semáforo | Con semáforo | **361** |
 
 Base: 9.272 vías y 9.658 cruces de OpenStreetMap; 28.523 siniestros registrados por la policía entre 2018 y junio de
-2026, de los cuales 18.797 se pudieron ubicar en un cruce.
+2026, de los cuales 18.798 se pudieron ubicar en un cruce.
 
 ## Cómo leer el mapa
 

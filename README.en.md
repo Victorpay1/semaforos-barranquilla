@@ -61,7 +61,7 @@ Data cut-off: **20 September 2026**.
 | 🟢 Already signalized (*Ya tiene semáforo*) | With signal (*Con semáforo*) | **361** |
 
 Base: 9,272 streets and 9,658 junctions from OpenStreetMap; 28,523 crashes recorded by the police between 2018 and
-June 2026, of which 18,797 could be placed at a junction.
+June 2026, of which 18,798 could be placed at a junction.
 
 ## How to read the map
 

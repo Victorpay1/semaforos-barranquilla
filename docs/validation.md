@@ -56,14 +56,15 @@ dos vías** y en el mapa existe **un único cruce** de esas dos vías (las dos c
 mismo cruce). Direcciones de puerta ("CL 87 9H 24"), tramos ("entre… y…", "frente a…") y casos ambiguos se
 descartan: es preferible un registro sin asignar que uno mal asignado.
 
-- **18.797 de 28.523 registros asignados (65,9 %)**; entre los que tienen forma de cruce, 82,1 %.
-- Sin asignar: 3.676 direcciones de puerta, 1.047 tramos, 3.244 cruces que no existen en el mapa con ese nombre
+- **18.798 de 28.523 registros asignados (65,9 %)**; entre los que tienen forma de cruce, 82,1 %.
+- Sin asignar: 3.676 direcciones de puerta, 1.047 tramos, 3.243 cruces que no existen en el mapa con ese nombre
   (sobre todo intercambiadores de la Circunvalar), 841 ambiguos, 918 ilegibles. Una muestra aleatoria de 30
-  asignaciones se revisó a mano: las 30 son coherentes; una depende de un alias tomado de OSM (Carrera 6 =
-  Cordialidad) (`data/out/reports/crash-match.json`).
+  asignaciones de la versión 0.1.0 se revisó a mano: las 30 son coherentes; una depende de un alias tomado de OSM
+  (Carrera 6 = Cordialidad). La muestra reproducible de `data/out/reports/crash-match.json` se regenera cuando
+  cambian las asignaciones.
 - **Periodo usado: 2018–2022.** Desde 2023 el registro dejó de incluir choques con solo daños (4.128 en 2018, 6 en
   2023), mientras los siniestros con víctimas se mantienen (1.100–1.800 al año). Para no mezclar dos criterios de
-  registro, los conteos y el ordenamiento usan 2018–2022 (15.093 registros asignados); los siniestros con víctimas
+  registro, los conteos y el ordenamiento usan 2018–2022 (15.094 registros asignados); los siniestros con víctimas
   de 2023–2025 se muestran aparte.
 - Los cruces **ya semaforizados** tienen muchos más siniestros (mediana 10) que los no semaforizados (mediana 0),
   porque por ellos pasa más tránsito. Por eso los siniestros se leen como **señal de conflicto y de exposición, no

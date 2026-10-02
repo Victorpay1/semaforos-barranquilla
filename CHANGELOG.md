@@ -8,6 +8,17 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y l
 
 ## [Sin publicar]
 
+### Correcciones - 2026-10-02
+
+- El parser de direcciones reconoce `X` como conector antes de otra vía: `CARRERA 44 X CALLE 84`
+  produce `CR44 / CL84`, en lugar de `CR44X / CL84`. Conserva los sufijos `X` en nombres OSM y en
+  direcciones con nomenclatura explícita, como `KR 17X CON CL 71` o `KR 17 X CON CL 71`.
+- Pruebas de regresión para cruces con `X`, sufijos reales y direcciones incompletas, de predio o entre calles.
+- Datos reconstruidos desde el mismo snapshot: 18.798 de 28.523 siniestros ubicados en un cruce
+  (antes 18.797), con 15.094 asignados en 2018–2022 (antes 15.093). Carrera 44 × Calle 84 pasa
+  de 11 a 12 registros, de dos a tres con heridos y de cero a uno peatonal. Las geometrías y categorías
+  permanecen iguales: 51 prioritarios, 131 recomendados, 293 en observación y 361 semaforizados.
+
 ## [0.1.0] - 2026-10-01
 
 Primera publicación del código, los datos y la metodología.

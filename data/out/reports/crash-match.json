@@ -48,7 +48,7 @@
   }
  },
  "parsedAsJunction": 22882,
- "matched": 18797,
+ "matched": 18798,
  "matchRateAll": 0.659,
  "matchRateJunctionFormat": 0.8215,
  "unmatched": {
@@ -56,20 +56,20 @@
   "between": 1047,
   "single": 6,
   "other": 912,
-  "no_such_crossing": 3244,
+  "no_such_crossing": 3243,
   "ambiguous": 841
  },
  "inPeriod": {
   "records": 23207,
-  "matched": 15093
+  "matched": 15094
  },
  "sample": [
   {
-   "address": "CL 87 CR 53",
+   "address": "CL 82 CR 43",
    "year": "2020",
-   "matchedTo": "Calle 87 × Carrera 53 (n1528446383)",
-   "lat": 11.010295,
-   "lon": -74.818968
+   "matchedTo": "Carrera 43 × Calle 82 (n621207532)",
+   "lat": 10.997653,
+   "lon": -74.817993
   },
   {
    "address": "CR 54 CL 53",
@@ -79,18 +79,18 @@
    "lon": -74.789257
   },
   {
-   "address": "CRA 57 CALLE 72",
+   "address": "VIA 40 CL 85",
    "year": "2019",
-   "matchedTo": "Calle 72 × Carrera 57 (n1157689105)",
-   "lat": 11.000694,
-   "lon": -74.799283
+   "matchedTo": "Vía 40 × Calle 85 (n1132517558)",
+   "lat": 11.026356,
+   "lon": -74.803814
   },
   {
-   "address": "CR 46 CL 62",
+   "address": "CL 45G CR 4",
    "year": "2019",
-   "matchedTo": "Calle 62 × Avenida Carrera 46 (n4505996602)",
-   "lat": 10.990762,
-   "lon": -74.797067
+   "matchedTo": "Calle 45G × Carrera 4 (n2122816427)",
+   "lat": 10.938346,
+   "lon": -74.80149
   },
   {
    "address": "CALLE 84 CON CARRERA 42B1",
@@ -100,11 +100,11 @@
    "lon": -74.824907
   },
   {
-   "address": "CALLE 85 CRA 57",
+   "address": "CALLE 45B CON CRA 21",
    "year": "2022",
-   "matchedTo": "Calle 85 × Carrera 57 (n597621367)",
-   "lat": 11.010192,
-   "lon": -74.815177
+   "matchedTo": "Calle 45B × Carrera 21 (n8758971979)",
+   "lat": 10.962079,
+   "lon": -74.79387
   },
   {
    "address": "CL 30 CR 35",
@@ -114,11 +114,11 @@
    "lon": -74.778579
   },
   {
-   "address": "VIA 40 CL 77",
+   "address": "CL 39 CR 35",
    "year": "2020",
-   "matchedTo": "Vía 40 × Calle 77 (n1218295080)",
-   "lat": 11.016164,
-   "lon": -74.795352
+   "matchedTo": "Carrera 35 × Calle 39 (n1159155427)",
+   "lat": 10.975635,
+   "lon": -74.783077
   },
   {
    "address": "CARRERA 14 CALLE 64",
@@ -135,11 +135,11 @@
    "lon": -74.784791
   },
   {
-   "address": "CALLE 97A CARRERA 9 G",
+   "address": "CALLE 84 CARRERA 46",
    "year": "2023",
-   "matchedTo": "Calle 97A × Carrera 9G (n619320090)",
-   "lat": 10.958262,
-   "lon": -74.827399
+   "matchedTo": "Avenida Carrera 46 × Calle 84 (n1161549311)",
+   "lat": 11.001601,
+   "lon": -74.81903
   },
   {
    "address": "CL 49 CR 54",
@@ -156,18 +156,18 @@
    "lon": -74.803172
   },
   {
-   "address": "CR 6 CL 94",
+   "address": "CL 19 CR 1B",
    "year": "2021",
-   "matchedTo": "Avenida de La Cordialidad × Calle 94 (n1238099897,n1230374682)",
-   "lat": 10.944429,
-   "lon": -74.825933
+   "matchedTo": "Avenida Circunvalar × Boulevard Simón Bolívar (n284142823,n950490066)",
+   "lat": 10.935426,
+   "lon": -74.780592
   },
   {
-   "address": "CL 75 CR 54",
+   "address": "CL 92 CR 71",
    "year": "2021",
-   "matchedTo": "Calle 75 × Carrera 54 (n1157689139)",
-   "lat": 11.00187,
-   "lon": -74.803859
+   "matchedTo": "Calle 92 × Carrera 71 (n1509484760)",
+   "lat": 11.020279,
+   "lon": -74.815943
   },
   {
    "address": "CL 82 CR 42H",
@@ -184,11 +184,11 @@
    "lon": -74.834237
   },
   {
-   "address": "CR 45B CL 32",
+   "address": "CL 72 CR 49",
    "year": "2021",
-   "matchedTo": "Carrera 45B × Calle 32 (n1160076022)",
-   "lat": 10.984389,
-   "lon": -74.776659
+   "matchedTo": "Carrera 49 × Calle 72 (n624999617)",
+   "lat": 10.996571,
+   "lon": -74.804275
   },
   {
    "address": "CL 17 CR 35",
@@ -205,11 +205,11 @@
    "lon": -74.785957
   },
   {
-   "address": "AV VIA 40 CON CALLE 85",
+   "address": "CARRERA 36 CALLE 37",
    "year": "2021",
-   "matchedTo": "Vía 40 × Calle 85 (n1132517558)",
-   "lat": 11.026356,
-   "lon": -74.803814
+   "matchedTo": "Carrera 36 × Calle 37 (n1159155373)",
+   "lat": 10.976501,
+   "lon": -74.781518
   },
   {
    "address": "CR 43 CL 112",
@@ -233,11 +233,11 @@
    "lon": -74.797424
   },
   {
-   "address": "CALLE 90 CARRERA 4B",
+   "address": "VIA 40 CALLE 76",
    "year": "2023",
-   "matchedTo": "Calle 90 × Carrera 4B (n1230374384)",
-   "lat": 10.941648,
-   "lon": -74.824094
+   "matchedTo": "Vía 40 × Calle 76 (n349355887)",
+   "lat": 11.014567,
+   "lon": -74.794215
   },
   {
    "address": "CR 51B CL 91",
